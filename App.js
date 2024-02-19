@@ -1,6 +1,7 @@
 import React from "react";
 import { SafeAreaView, ScrollView, Text, View, StyleSheet } from "react-native";
 import Signin from "./screen/SignIn";
+import Monday from "./monday";
 
 const App = () => {
   return (
@@ -12,8 +13,10 @@ const App = () => {
     </SafeAreaView> */}
 
     <View>
-      <Signin/>
+      <Monday/>
+      {/* <Signin/> */}
     </View>
+    
 
     </>
   );
